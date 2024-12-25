@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Tuo Negozio Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .product img {
+            width: 150px;
+            height: auto;
+            margin-right: 1rem;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .product h3 {
+            margin: 0;
+            color: #333;
+        }
+        .product p {
+            margin: 0.5rem 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Il Tuo Negozio Online</h1>
+    <p>I migliori prodotti a portata di clic!</p>
+</header>
+
+<nav>
+    <a href="#elettronica">Elettronica</a>
+    <a href="#casa">Casa e Arredamento</a>
+    <a href="#moda">Moda</a>
+    <a href="#contatti">Contatti</a>
+</nav>
+
+<div class="container">
+    <section id="elettronica">
+        <h2>Elettronica</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Cuffie Wireless">
+            <div class="product-details">
+                <h3>Cuffie Wireless Bluetooth</h3>
+                <p>Qualità audio eccezionale, design elegante e batteria a lunga durata.</p>
+                <p><strong>Prezzo: €25,00</strong></p>
+                <a href="#" class="btn">Acquista Ora</a>
+            </div>
+        </div>
+        <!-- Aggiungi altri prodotti -->
+    </section>
+
+    <section id="casa">
+        <h2>Casa e Arredamento</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Lampada Minimal">
+            <div class="product-details">
+                <h3>Lampada Minimal</h3>
+                <p>Illumina la tua casa con stile grazie al nostro design moderno.</p>
+                <p><strong>Prezzo: €40,00</strong></p>
+                <a href="#" class="btn">Acquista Ora</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="moda">
+        <h2>Moda</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Felpa Oversize">
+            <div class="product-details">
+                <h3>Felpa Oversize</h3>
+                <p>Comfort e stile perfetti per ogni occasione.</p>
+                <p><strong>Prezzo: €30,00</strong></p>
+                <a href="#" class="btn">Acquista Ora</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Il Tuo Negozio Online - Tutti i diritti riservati</p>
+</footer>
+
+</body>
+</html>
